@@ -1,0 +1,60 @@
+[debug] [2024-08-27T19:03:09.359Z] ----------------------------------------------------------------------
+[debug] [2024-08-27T19:03:09.365Z] Command:       /usr/local/bin/node /Users/nivinsamuvel/.npm-global/bin/firebase init
+[debug] [2024-08-27T19:03:09.366Z] CLI Version:   13.15.4
+[debug] [2024-08-27T19:03:09.366Z] Platform:      darwin
+[debug] [2024-08-27T19:03:09.366Z] Node Version:  v20.16.0
+[debug] [2024-08-27T19:03:09.366Z] Time:          Wed Aug 28 2024 00:33:09 GMT+0530 (India Standard Time)
+[debug] [2024-08-27T19:03:09.366Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-27T19:03:09.426Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-27T19:03:09.427Z] > authorizing via signed-in user (samuelnivin96@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/nivinsamuvel/Desktop/ToDo/todo-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-08-27T19:03:13.058Z] Using project from CLI flag: taskmanager-22d55
+[debug] [2024-08-27T19:03:13.061Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/taskmanager-22d55 [none]
+[debug] [2024-08-27T19:03:14.583Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/taskmanager-22d55 200
+[debug] [2024-08-27T19:03:14.583Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/taskmanager-22d55 {"projectId":"taskmanager-22d55","projectNumber":"707777675470","displayName":"TaskManager","name":"projects/taskmanager-22d55","resources":{"hostingSite":"taskmanager-22d55"},"state":"ACTIVE","etag":"1_bdddc3b1-58b4-465f-b13c-bed53688e7f2"}
+[info] i  Using project taskmanager-22d55 (TaskManager) 
+[info] 
+=== Hosting Setup
+[debug] [2024-08-27T19:03:14.591Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/taskmanager-22d55 [none]
+[debug] [2024-08-27T19:03:14.955Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/taskmanager-22d55 200
+[debug] [2024-08-27T19:03:14.955Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/taskmanager-22d55 {"projectId":"taskmanager-22d55","projectNumber":"707777675470","displayName":"TaskManager","name":"projects/taskmanager-22d55","resources":{"hostingSite":"taskmanager-22d55"},"state":"ACTIVE","etag":"1_bdddc3b1-58b4-465f-b13c-bed53688e7f2"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-08-27T19:03:27.474Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-08-27T19:03:27.827Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-08-27T19:03:27.827Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.13.0","browserURL":"https://www.gstatic.com/firebasejs/10.13.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.13.0/firebase.tgz"},"live":{"version":"10.13","browserURL":"https://www.gstatic.com/firebasejs/live/10.13/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.13/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.13.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.13.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.13.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.13.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.13.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.13.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.13.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.13.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.13.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.13.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.13.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.13.0/firebase-database.js","vertexai-preview":"https://www.gstatic.com/firebasejs/10.13.0/firebase-vertexai-preview.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.memory.js"}}
+[debug] [2024-08-27T19:03:28.180Z] Error: ENOTDIR: not a directory, scandir '/Users/nivinsamuvel/Desktop/ToDo/todo-app/dist/index.html'
+    at Object.readdirSync (node:fs:1507:26)
+    at Object.createFileSync (/Users/nivinsamuvel/.npm-global/lib/node_modules/firebase-tools/node_modules/fs-extra/lib/ensure/file.js:55:10)
+    at Config.writeProjectFile (/Users/nivinsamuvel/.npm-global/lib/node_modules/firebase-tools/lib/config.js:159:12)
+    at /Users/nivinsamuvel/.npm-global/lib/node_modules/firebase-tools/lib/config.js:183:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async doSetup (/Users/nivinsamuvel/.npm-global/lib/node_modules/firebase-tools/lib/init/features/hosting/index.js:177:9)
+    at async init (/Users/nivinsamuvel/.npm-global/lib/node_modules/firebase-tools/lib/init/index.js:40:9)
+[error] 
+[error] Error: An unexpected error has occurred.

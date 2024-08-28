@@ -1,8 +1,9 @@
 {
-    "task":[
-        {
-            "id":1,
-            "title":"learn angular"
-        }
-    ]
+  "task": [
+    {
+      "id": "b130",
+      "title": "Yeshua",
+      "completed": true
+    }
+  ]
 }
